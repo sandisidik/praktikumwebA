@@ -1,0 +1,30 @@
+body{
+    background-color: #fff1f0;
+}
+#menu ul {
+    background-color: #DC143C;
+}
+#menu li a:hover {
+    color: #DC143C;
+}
+#sidebar li a:hover{
+    background-color: #DC143C;
+}
+.populer{
+    background-color: #DC143C;
+}
+.button{
+    background-color: #DC143C;
+}
+#footer{
+    width: auto;
+    height: 70px;
+    background-color: #DC143C;
+    border-radius: 8px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+}
+#footer p {
+    color:white;
+    padding: 30px ;
+    text-align: center;
+}

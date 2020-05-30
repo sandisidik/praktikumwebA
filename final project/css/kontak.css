@@ -1,0 +1,116 @@
+*{
+    font-family: sans-serif;
+}
+#main-content{
+    margin: 0 auto;
+    width: 1000px;
+    height: auto;
+}
+#atas{
+    width: 700px;
+    height: 250px;
+    float: right;
+    position: relative;
+}
+#atas p{
+    position: absolute;
+    color: white;
+    
+    font-size: 20px;
+    top: 8px;
+    right: 16px;
+}
+#sidebar{
+    float: left;
+    width: 300px;
+    height:auto;
+}
+#sidebar img{
+    width: 300px;
+    margin-left: 30px;
+}
+#menu{
+   
+    margin-top: 7px;
+    width: 700px;
+    height:43px;
+    float: right;
+}
+#menu ul {
+    border-radius: 3px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+#menu li{
+    float: left;
+}
+#menu li a:hover {
+    background-color: white;
+}
+#menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#isi{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding: 20px;
+    width: 660px;
+    height: 450px;
+    float: right;
+    background: white;
+    border-radius: 8px;
+}
+.populer p{
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+#sidebar ul{
+    border-radius: 8px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 250px;
+    background-color: white;
+    margin-left: 30px;
+}
+#sidebar li a{
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+#sidebar li a:hover{
+    color: white;
+}
+.galeri {
+    position: relative;
+    margin-left: 25px;
+    display: inline-block;
+}
+.galeri p a{
+    color: black;
+    text-decoration: none;
+ 
+}
+
+.galeri img{
+    margin-right: 7px;
+    margin-left: 10px;
+    height: 200px;
+    width: 170px;
+}
+#clear{
+    clear: both;
+}
+.populer{
+    width: 250px;
+    margin-left: 30px;
+    border-radius: 8px;
+}
